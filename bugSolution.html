@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text is visible.
+  </div>
+
+  <script>
+    //Correct way to change the text content 
+    document.getElementById("myDiv").innerHTML = "<p>This is correct</p>";
+  </script>
+</body>
+</html>
